@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "In-browser calculator with modern UI",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "calculator",
+    "html",
+    "javascript",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
