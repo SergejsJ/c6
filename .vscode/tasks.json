@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Запустить сервер разработки",
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "isBackground": true,
+      "runOptions": {
+        "runOn": "default"
+      }
+    },
+    {
+      "label": "Открыть в браузере",
+      "type": "shell",
+      "command": "Start-Process",
+      "args": [
+        "${workspaceFolder}/index.html"
+      ],
+      "windows": {
+        "command": "powershell.exe",
+        "args": [
+          "-Command",
+          "Start-Process '${workspaceFolder}/index.html'"
+        ]
+      },
+      "problemMatcher": []
+    }
+  ]
+}
+
